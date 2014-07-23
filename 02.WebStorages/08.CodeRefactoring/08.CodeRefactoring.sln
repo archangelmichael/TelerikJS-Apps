@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkInMatrix", "WalkInMatrix\WalkInMatrix.csproj", "{130DB670-0BEA-4425-8285-0E1D888B83E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWalkInMatrix", "TestWalkInMatrix\TestWalkInMatrix.csproj", "{A6807569-657A-4172-AE26-00FB9A3BDA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkInMatrixUnitTests", "WalkInMatrixUnitTests\WalkInMatrixUnitTests.csproj", "{7225E4F6-C142-4ACB-B481-513DC9CF1FAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130DB670-0BEA-4425-8285-0E1D888B83E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130DB670-0BEA-4425-8285-0E1D888B83E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130DB670-0BEA-4425-8285-0E1D888B83E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130DB670-0BEA-4425-8285-0E1D888B83E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6807569-657A-4172-AE26-00FB9A3BDA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6807569-657A-4172-AE26-00FB9A3BDA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6807569-657A-4172-AE26-00FB9A3BDA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6807569-657A-4172-AE26-00FB9A3BDA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7225E4F6-C142-4ACB-B481-513DC9CF1FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7225E4F6-C142-4ACB-B481-513DC9CF1FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7225E4F6-C142-4ACB-B481-513DC9CF1FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7225E4F6-C142-4ACB-B481-513DC9CF1FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
