@@ -1,5 +1,0 @@
-C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\05.2014.HighQualityCode\08.CodeRefactoring\WalkInMatrix\bin\Debug\WalkInMatrix.dll
-C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\05.2014.HighQualityCode\08.CodeRefactoring\WalkInMatrix\bin\Debug\WalkInMatrix.pdb
-C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\05.2014.HighQualityCode\08.CodeRefactoring\WalkInMatrix\obj\Debug\WalkInMatrix.csprojResolveAssemblyReference.cache
-C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\05.2014.HighQualityCode\08.CodeRefactoring\WalkInMatrix\obj\Debug\WalkInMatrix.dll
-C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\05.2014.HighQualityCode\08.CodeRefactoring\WalkInMatrix\obj\Debug\WalkInMatrix.pdb

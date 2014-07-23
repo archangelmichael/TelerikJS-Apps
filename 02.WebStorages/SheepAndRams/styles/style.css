@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #89ffb0;
+}
+
+body div#wrapper {
+    color: #123456;
+    font-size: 14px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    min-height: 100%;
+    position: relative;
+}
+body div#wrapper header#site-header {
+    text-align: center;
+    background: #89ffb0;
+    background: -moz-linear-gradient(top, #0b6f0b 0%, #89ffb0 75%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0b6f0b), color-stop(75%, #89ffb0));
+    background: -webkit-linear-gradient(top, #0b6f0b 0%, #89ffb0 75%);
+    background: -o-linear-gradient(top, #0b6f0b 0%, #89ffb0 75%);
+    background: -ms-linear-gradient(top, #0b6f0b 0%, #89ffb0 75%);
+    background: linear-gradient(to bottom, #0b6f0b 0%, #89ffb0 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b6f0b', endColorstr='#89ffb0', GradientType=0);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+body div#wrapper header#site-header h1 {
+    font-size: 2.7em;
+    color: #cbefdb;
+}
+
+body div#wrapper aside {
+    width: 150px;
+    min-width: 150px;
+    display: block;
+    margin: 0 35px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #effff4;
+    background: -moz-linear-gradient(top, #89ffb0 0%, #effff4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #89ffb0), color-stop(100%, #effff4));
+    background: -webkit-linear-gradient(top, #89ffb0 0%, #effff4 100%);
+    background: -o-linear-gradient(top, #89ffb0 0%, #effff4 100%);
+    background: -ms-linear-gradient(top, #89ffb0 0%, #effff4 100%);
+    background: linear-gradient(to bottom, #89ffb0 0%, #effff4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#89ffb0', endColorstr='#effff4', GradientType=0);
+    background-repeat: no-repeat;
+}
+
+body div#wrapper aside {
+    width: 20%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body div#wrapper aside.left {
+    float: left;
+    margin-left: 15%;
+}
+
+body div#wrapper aside.right {
+    float: right;
+    margin-right: 15%;
+}
+
+body div#wrapper section {
+    margin: 10px auto;
+    width: 1200px;
+    position: relative;
+    display: block;
+    zoom: 1;
+}
+
+body div#wrapper section div#number-container {
+     margin: 5px;
+ }
+
+body div#wrapper section div#number-container label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+body div#wrapper section div#number-container input[type = 'text'] {
+    border: 2px solid #49c949;
+    margin: 10px auto;
+    padding:5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #49c949;
+    text-align: center;
+}
+
+body div#wrapper section div#number-container input[type = "button"] {
+    border: 2px solid #49c949;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background: #87e894;
+}
+
+body div#wrapper section div#number-container input[type = "button"]:hover {
+    background:  #28af28;
+}
+
+body div#wrapper section div#number-container input[type = "button"]:active {
+    background:  #d91ead;
+}
+
+body div#wrapper section div#number-container {
+    margin: 5px;
+}
+
+body div#wrapper section div#name-container label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+body div#wrapper section div#name-container input[type = 'text'] {
+    border: 2px solid #49c949;
+    margin: 10px auto;
+    padding:5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #49c949;
+    text-align: center;
+}
+
+body div#wrapper section div#name-container input[type = "button"] {
+    border: 2px solid #49c949;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background: #87e894;
+}
+
+body div#wrapper section div#name-container input[type = "button"]:hover {
+    background:  #28af28;
+}
+
+
+body div#wrapper section:after {
+    display: block;
+    content: "";
+    height: 0;
+}
+
+body div#wrapper > input {
+    border: 2px solid #49c949;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background: #87e894;
+}
+
+body div#wrapper > input:hover {
+    background:  #28af28;
+}

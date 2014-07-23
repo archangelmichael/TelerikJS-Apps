@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Sheep and Rams - The Game </title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script data-main="scripts/main" src="scripts/libs/require-2.1.14.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header id="site-header">
+            <img id="left-img" src="images/sheep.png" alt="sheep" />
+            <img id="right-img" src="images/ram.png" alt="ram" />
+            <h1 id="title"> Welcome to the "Sheep and Rams Game" </h1>
+            <p>You have to guess a secret four digit number. <p>
+            <p> For every guess you make you receive rams and sheep. <p>
+            <p> Ram means you have guessed a digit's position. <p>
+            <p> Sheep  means that there is such digit but it is not in the right spot. <p>
+            <p> You win the game when you guess the number. Good luck! </p>
+        </header>
+        <aside class="left" >
+            <div id="answers">
+                <h4>Your answers so far.</h4>
+                <div id="answers-storage"></div>
+            </div>
+        </aside>
+        <aside class="right" >
+            <div id="high-scores">
+                <h4>HIGH SCORES</h4>
+                <div id="scores"></div>
+            </div>
+        </aside>
+        <section>
+            <div id="number-container">
+                <label for="number"> Enter your guess number. </label>
+                <input type="text" id="number" />
+                <h2 id="msg"></h2>
+                <br/>
+                <input type="button" value="Check guess" id="check-btn" />
+            </div>
+            <div id="name-container">
+                <h1 id="winner-msg" ></h1>
+                <label for="name"> Enter your name winner: </label>
+                <input type="text" id="name"/>
+                <br/>
+                <input type="button" value="Submit" id="submit-btn"/>
+            </div>
+        </section>
+        <input type="button" value="Play Again" id="restart-btn"/>
+    </div>
+</body>
+</html>
