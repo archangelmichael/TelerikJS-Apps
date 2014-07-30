@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Mustache Testing </title>
+	<script type="text/javascript" src="scripts/libs/jquery-2.1.1.min.js" ></script>
+	<script src="scripts/libs/mustache-0.8.1.min.js" type="text/javascript" ></script>
+	 <script src="scripts/students.js" type="text/javascript" ></script>
+</head>
+<body>
+    <p id="person1"></p>
+	<p id="person2"></p>
+    <div id="template-result" style="display:none"></div>
+    <script id="mustache-template" type="text/html">
+        <h1>{{name}} is {{age}} years old and he is in {{grade}} grade!</h1>
+    </script>
+
+<!--<script src="scripts/app.js" type="text/javascript"></script> -->
+    <script type='text/javascript'>
+        var template = $("#mustache-template").html();
+        var output = Mustache.render(template, person);
+        $('#person1').html(output);
+        console.log(output);
+    </script>
+</body>
+</html>

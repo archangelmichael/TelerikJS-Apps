@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> HTTP Student Request </title>
+    <link href="styles/app-styles.css" rel="stylesheet" />
+    <script src="scripts/libs/require-v2.1.14.min.js" data-main="scripts/app" type="text/javascript" ></script>
+</head>
+<body>
+    <header>
+        <label for="name"> Name: </label>
+        <input id="name" type="text" placeholder="enter student name"/>
+        <br/>
+        <label for="grade"> Grade: </label>
+        <input id="grade" type="number" min='1' max='12' placeholder="choose student grade"/>
+        <br/>
+        <button id='btn-add-student'> Add new </button>
+        <button id='btn-load-students'> Load students </button>
+        <div class="messages">
+            <strong class="message success"></strong>
+            <strong class="message error"></strong>
+        </div>
+    </header>
+    <div>
+        <h2> List of Students </h2>
+        <ul id="students-container" >
+        </ul>
+    </div>
+    <script id="student-template" type="text/x-handlebars-template">
+        <ul>
+            {{#students}}
+            <li>
+                <span> Id: {{id}} Name: {{name}} Grade: {{grade}} </span>
+            </li>
+            {{/students}}
+        </ul>
+    </script>
+    <p class='info'>This web page should be run on a server (localhost or in WWW).</p>
+</body>
+</html>

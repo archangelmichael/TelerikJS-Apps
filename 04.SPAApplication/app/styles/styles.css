@@ -1,0 +1,48 @@
+* {
+    margin : 5px;
+    padding: 5px 10px;
+    background: #0FF0FF;
+}
+
+div {
+    float: left;
+}
+
+.message.success{
+    color: #FF00FF;
+}
+
+.message.error{
+    color: red;
+}
+
+.message.error, .message.success{
+    display: none;
+    position: fixed;
+    left:30%;
+    top: 10%;
+    font-size: 36px;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+#message-input {
+    float: right;
+}
+
+#send-message-btn {
+    float:right;
+}

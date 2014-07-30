@@ -1,0 +1,15 @@
+{
+  "name": "scripts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RS",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.7.2",
+    "underscore": "^1.6.0"
+  }
+}

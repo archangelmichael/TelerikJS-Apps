@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 5px 10px;
+    background-color: #00FF00;
+    color: #0000FF;
+}
+
+header {
+    text-align: center;
+}
+
+input {
+    background-color: #00FF00;
+    width: 150px;
+}
+
+.message.success{
+    color: #FF00FF;
+}
+
+.message.error{
+    color: red;
+}
+
+.message.error, .message.success{
+    display: none;
+}
+
+button:hover {
+    background-color: #FFFF00;
+}
+
+button:active {
+    background-color: #FF00FF;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left !important;
+}

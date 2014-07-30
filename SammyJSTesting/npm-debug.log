@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/tildeio/rsvp.js/rsvp.js' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'https://github.com/tildeio/rsvp.js/rsvp.js', null ]
+6 verbose cache add name=undefined spec="https://github.com/tildeio/rsvp.js/rsvp.js" args=["https://github.com/tildeio/rsvp.js/rsvp.js",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/tildeio/rsvp.js/rsvp.js',
+7 verbose parsed url   path: '/tildeio/rsvp.js/rsvp.js',
+7 verbose parsed url   href: 'https://github.com/tildeio/rsvp.js/rsvp.js' }
+8 silly lockFile 0491b6e9-thub-com-tildeio-rsvp-js-rsvp-js https://github.com/tildeio/rsvp.js/rsvp.js
+9 verbose lock https://github.com/tildeio/rsvp.js/rsvp.js C:\Users\ARCHANGEL\AppData\Roaming\npm-cache\0491b6e9-thub-com-tildeio-rsvp-js-rsvp-js.lock
+10 verbose addRemoteTarball [ 'https://github.com/tildeio/rsvp.js/rsvp.js', null ]
+11 info retry fetch attempt 1 at 20:00:46
+12 verbose fetch to= C:\Users\ARCHAN~1\AppData\Local\Temp\npm-4452-N42zzPan\1406480446132-0.26622861297801137\tmp.tgz
+13 http GET https://github.com/tildeio/rsvp.js/rsvp.js
+14 http 404 https://github.com/tildeio/rsvp.js/rsvp.js
+15 error fetch failed https://github.com/tildeio/rsvp.js/rsvp.js
+16 silly lockFile 0491b6e9-thub-com-tildeio-rsvp-js-rsvp-js https://github.com/tildeio/rsvp.js/rsvp.js
+17 silly lockFile 0491b6e9-thub-com-tildeio-rsvp-js-rsvp-js https://github.com/tildeio/rsvp.js/rsvp.js
+18 error Error: 404 Not Found
+18 error     at WriteStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\fetch.js:57:12)
+18 error     at WriteStream.EventEmitter.emit (events.js:117:20)
+18 error     at fs.js:1598:14
+18 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:105:5
+18 error     at Object.oncomplete (fs.js:107:15)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Windows_NT 6.1.7601
+21 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/tildeio/rsvp.js/rsvp.js"
+22 error cwd C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\07.2014.JS Apps\SammyJSTesting
+23 error node -v v0.10.28
+24 error npm -v 1.4.9
+25 verbose exit [ 1, true ]
