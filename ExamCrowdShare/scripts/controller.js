@@ -188,8 +188,8 @@ define(['http-requester', 'validation-controller', 'ui', 'crypto'], function(Htt
         function getUserAndPass() {
             var username = $('#login-name').val();
             var password = $('#login-password').val();
-            var userIsValid = ValidationController.isUsernameCorrect(username);
-            var passwordIsValid = ValidationController.isValidPassword(password);
+            var userIsValid = ValidationController.isInputCorrect(username);
+            var passwordIsValid = ValidationController.isInputCorrect(password);
             if(userIsValid && passwordIsValid) {
                 _username = username;
                 _password = password;
