@@ -15,7 +15,7 @@ define(function() {
     });
 
     require(['jquery', 'sammy', 'controller', 'ui'], function($, Sammy, Controller) {
-        var appController = new Controller('http://localhost:3000'); //'http://jsapps.bgcoder.com'
+        var appController = new Controller('http://jsapps.bgcoder.com'); //'http://localhost:3000'
         appController.setEventHandler();
         appController.loadChatBox();
 
